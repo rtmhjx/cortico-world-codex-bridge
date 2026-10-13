@@ -1,0 +1,21 @@
+{
+  "worlds": {
+    "codexbridge": {
+      "enabled": false,
+      "sessionsDir": "C:/BridgeSources/codex-sessions",
+      "allowedWorkspaces": "[\"C:/Projects/bridge-demo\"]",
+      "deniedWorkspaces": "[\"C:/Projects/bridge-demo/private\"]",
+      "includeSubagents": false,
+      "notificationPolicy": "important",
+      "watchIntervalSeconds": 5,
+      "notifyPhases": "commentary,final_answer",
+      "notifyUserMessages": true,
+      "notifyLifecycle": true,
+      "eventContentChars": 400,
+      "workspaceFilesEnabled": false,
+      "workspaceFileRoots": "[\"C:/Projects/bridge-demo\"]",
+      "workspaceMaxFileBytes": 1048576,
+      "stateDir": "C:/BridgeState/codexbridge"
+    }
+  }
+}
