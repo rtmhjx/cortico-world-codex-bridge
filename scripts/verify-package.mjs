@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import definition from '../src/index.ts';
+const manifest=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8'));
+assert.equal(manifest.cortico.kind,'world');assert.equal(manifest.cortico.api,5);
+const world=definition.create({cfg:definition.defaults(),dataDir:tmpdir(),timezone:'UTC'});
+assert.equal(world.id,definition.id);const names=world.tools().map(t=>t.name);assert.equal(new Set(names).size,names.length);
+assert.ok(names.every(n=>n.startsWith(world.id+'_')));assert.ok(world.console());
+console.log(JSON.stringify({name:manifest.name,version:manifest.version,api:5,tools:names,constructed:true,started:false}));
