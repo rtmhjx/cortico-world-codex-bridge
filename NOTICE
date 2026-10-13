@@ -1,0 +1,4 @@
+This package is licensed under the included MIT LICENSE.
+The Cortico SDK and host are separate dependencies under their upstream license.
+Cortico: https://github.com/Pal-AI-Lab/Cortico (MIT, Copyright 2026 Phantivia).
+No SDK, host runtime, deployment data or third-party binary is included.

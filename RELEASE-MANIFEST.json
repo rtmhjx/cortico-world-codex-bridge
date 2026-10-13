@@ -1,0 +1,29 @@
+{
+  "name": "cortico-world-codex-bridge",
+  "version": "0.2.0",
+  "repository": "https://github.com/rtmhjx/cortico-world-codex-bridge",
+  "delivery": "standalone external World; GitHub source and archives; no npm publication",
+  "artifacts": [
+    {
+      "file": "cortico-world-codex-bridge-0.2.0.tgz",
+      "sha256": "00de82b0cf6a48b92aa8fedf2e1e97a099e1417922512e86199e4d0916cc6f64",
+      "bytes": 61453
+    },
+    {
+      "file": "cortico-world-codex-bridge-0.2.0-source.zip",
+      "sha256": "731d70821451fb5641f098b96a63475501dd2432bc22803df99dc6cd9bdf78fe",
+      "bytes": 115593
+    }
+  ],
+  "readmeSha256": "ec0b51284a00c8ae3563b545c69b4c1913c1a10e061740f932c1bde7cca5c518",
+  "sourceFiles": 28,
+  "runtimeSourceVerified": true,
+  "testsPassed": 105,
+  "testsSkipped": 0,
+  "validationPlatform": "Windows; Node 24.19.0; published Cortico SDK 0.1.7",
+  "typecheckPassed": true,
+  "officialExtensionContractPassed": true,
+  "productionMounted": false,
+  "stability24hAccepted": false,
+  "runtimeDataIncluded": false
+}

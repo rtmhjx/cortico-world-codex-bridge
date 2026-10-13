@@ -1,0 +1,40 @@
+{
+  "name": "cortico-world-codex-bridge",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Scoped read-only access to local Codex conversations, progress events and delivery diagnostics",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/index.ts",
+  "keywords": [
+    "cortico-world"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 5,
+    "consoleClient": "./console.js"
+  },
+  "files": [
+    "src",
+    "console.js",
+    "scripts/audit-codex-bridge.mjs",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "devDependencies": {
+    "cortico": "0.1.7",
+    "@types/node": "22.20.1",
+    "tsx": "4.23.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "test": "tsx --test tests/codex-audit.test.ts tests/codex-large-records.test.ts tests/codex-notifications.test.ts tests/codex-reader.test.ts tests/codex-workspace.test.ts tests/codex-world.test.ts",
+    "typecheck": "tsc --project tsconfig.json",
+    "audit": "node scripts/audit-codex-bridge.mjs",
+    "verify:package": "tsx scripts/verify-package.mjs"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeSourceMatchesWorkbench": true,
+  "files": [
+    {
+      "file": "src/config.ts",
+      "sha256": "c67bb1326f8b8dafc69f69a3f6a05cef9608e10f6070780ab8f4cbff70d2bdf0"
+    },
+    {
+      "file": "src/definition.ts",
+      "sha256": "3d5e8f60eb6ae086409ed33c363b0f82ecca7dc1a0312701d0261b3d3d1912c5"
+    },
+    {
+      "file": "src/ENV_PROMPT.md",
+      "sha256": "5fdfc4e6d0a9d04ed15f7b6ff8023782e7aa105394da5d3222b1571454364168"
+    },
+    {
+      "file": "src/framer.ts",
+      "sha256": "21b9397668cc7de13dd73c8c80670203e517c51f6cade10d1a94d2bed6849594"
+    },
+    {
+      "file": "src/index.ts",
+      "sha256": "4beec0fb2a0bcd4fd13a410cbc9805ba6a95634bb5f391fe417ba3d9588008dc"
+    },
+    {
+      "file": "src/reader.ts",
+      "sha256": "70290a7b2b17d80c31b9f63ed4c8e5e3124f56335d66de0885ca2208e17a73f1"
+    },
+    {
+      "file": "src/runtime.ts",
+      "sha256": "3d6bfa5ac7c33b0dd66a754b0d417d88aa566c5f97eb41c0df83f6fb19372546"
+    },
+    {
+      "file": "src/scrub.ts",
+      "sha256": "dbb2b7590086aea3677bf9725351da5acd5e4d91a4f9e15e2525aab94e2b395c"
+    },
+    {
+      "file": "src/workspace.ts",
+      "sha256": "eb05eac9aa48ed43c32178ba2a3d915c79cd5162cb61d7261f8ae55da0ad8b0f"
+    },
+    {
+      "file": "src/world.ts",
+      "sha256": "5cb312e6474513aac682ad2a4a517d9ca37a34b807b2410381a75289a6abc9c5"
+    },
+    {
+      "file": "console.js",
+      "sha256": "1da8c9a6e5ea78cb3e8cd81541fcc568d1db23d004b457d36b8bf35aac777a10"
+    }
+  ]
+}
